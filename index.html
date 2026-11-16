@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Skin Optics Atlas：從皮膚分層、RCM、SHG、THG 到人工智慧影像分析的開放式生醫光學知識庫。">
+  <meta name="theme-color" content="#0b1728">
+  <title>Skin Optics Atlas｜生醫光學影像知識庫</title>
+  <link rel="icon" href="assets/svg/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <header class="site-header"><div class="shell nav-shell">
+    <a class="brand" href="index.html" aria-label="Skin Optics Atlas 首頁"><span class="brand-mark" aria-hidden="true">◎</span><span><strong>SKIN OPTICS</strong><small>ATLAS / 生醫光學知識庫</small></span></a>
+    <nav aria-label="主選單" class="top-nav"><a class="active" href="index.html">首頁</a><a href="library.html">知識文章</a><a href="about.html">關於專案</a></nav>
+    <button id="theme-toggle" class="icon-button" type="button" aria-label="切換顯示主題" title="切換顯示主題">☾</button>
+  </div></header>
+  <main id="main">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> OPEN BIOMEDICAL OPTICS NOTEBOOK</p>
+        <h1>看見皮膚的<span class="gradient-text">每一層</span><br>理解光如何成像。</h1>
+        <p class="hero-description">從皮膚組織結構、反射式共軛焦顯微術，到二倍頻與三倍頻影像，再延伸至 AI 重建。用清晰的圖解，把生醫光學知識串成一張地圖。</p>
+        <div class="hero-actions"><a class="button button-primary" href="library.html">探索知識文章 <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="about.html">了解這個專案</a></div>
+        <div class="hero-metrics"><div><strong id="entry-count">11</strong><span>主題文章</span></div><div><strong>03</strong><span>影像模態</span></div><div><strong>06</strong><span>皮膚觀察層</span></div></div>
+      </div>
+      <div class="hero-visual" aria-label="皮膚各層結構的概念示意圖">
+        <div class="visual-toolbar"><span class="signal-dots"><i></i><i></i><i></i></span><span>SKIN STRUCTURE / SCHEMATIC</span><span class="visual-live">● LIVE GUIDE</span></div>
+        <img src="assets/svg/skin-layers.svg" alt="由角質層 SC、顆粒層 SG、棘狀層 SS、基底層 SB、乳突真皮 PD、網狀真皮 RD 組成的六層皮膚概念圖。非按比例繪製。" width="640" height="540">
+        <div class="visual-caption"><span>01 / 06</span><span>概念示意・非比例影像</span></div>
+      </div>
+    </section>
+    <section class="section shell" aria-labelledby="start-title">
+      <div class="section-heading"><div><p class="eyebrow">START EXPLORING</p><h2 id="start-title">三個入口，建立完整理解</h2></div><a class="inline-link" href="library.html">查看全部文章 <span aria-hidden="true">↗</span></a></div>
+      <div class="topic-grid">
+        <a class="topic-card topic-blue" href="library.html?category=layer"><span class="topic-number">01 / ANATOMY</span><div class="topic-glyph" aria-hidden="true">▤</div><h3>皮膚分層</h3><p>從角質層到真皮，認識組織位置、細胞特徵與影像辨識重點。</p><span class="card-bottom">6 個核心層次 <span aria-hidden="true">→</span></span></a>
+        <a class="topic-card topic-teal" href="library.html?category=modality"><span class="topic-number">02 / IMAGING</span><div class="topic-glyph" aria-hidden="true">◉</div><h3>光學成像</h3><p>了解 RCM、SHG、THG 三種影像的對比來源與互補價值。</p><span class="card-bottom">3 種影像模態 <span aria-hidden="true">→</span></span></a>
+        <a class="topic-card topic-orange" href="library.html?category=ai"><span class="topic-number">03 / COMPUTING</span><div class="topic-glyph" aria-hidden="true">⌘</div><h3>AI 影像分析</h3><p>以分割、跨模態影像重建與評估指標為例，理解研究流程。</p><span class="card-bottom">模型與工作流程 <span aria-hidden="true">→</span></span></a>
+      </div>
+    </section>
+    <section class="section shell feature-section" aria-labelledby="feature-title">
+      <div class="feature-description"><p class="eyebrow">MULTIMODAL IMAGING</p><h2 id="feature-title">同一片皮膚，<br>不同的光學語言。</h2><p>反射訊號、二倍頻與三倍頻各自呈現組織的不同面貌。整合多模態資訊，才能從細胞輪廓延伸到真皮中的膠原纖維網絡。</p><a class="inline-link" href="article.html?slug=rcm">從 RCM 開始閱讀 <span aria-hidden="true">↗</span></a></div>
+      <div class="modality-panel" aria-label="三種成像對比機制整理">
+        <div class="modality-legend"><span class="legend-rcm">RCM <small>反射 / 散射</small></span><span class="legend-shg">SHG <small>膠原結構</small></span><span class="legend-thg">THG <small>介面差異</small></span></div>
+        <div class="modality-graphic"><div class="wave wave-one"></div><div class="wave wave-two"></div><div class="wave wave-three"></div><div class="cell-field"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+        <p class="panel-note">示意圖僅說明不同對比機制，並非真實顯微影像或量測結果。</p>
+      </div>
+    </section>
+    <section class="section shell" aria-labelledby="latest-title"><div class="section-heading"><div><p class="eyebrow">CURATED ARTICLES</p><h2 id="latest-title">精選入門文章</h2></div><a class="inline-link" href="library.html">進入文章列表 <span aria-hidden="true">↗</span></a></div><div id="featured-cards" class="article-grid" aria-live="polite"></div></section>
+    <section class="shell"><div class="bottom-cta"><div><p class="eyebrow">BUILT TO GROW</p><h2>不只是一個網站，而是一套可持續擴充的知識系統。</h2><p>所有文章遵守同一份 AGENTS.md 規範；未來新增新模態、新層次或新技術，只要依照固定格式填入資料即可。</p></div><a class="button button-primary" href="about.html">查看建置規則 <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="footer"><div class="shell footer-inner"><span>© 2026 Skin Optics Atlas · Educational project</span><span>非醫療診斷工具 · <a href="about.html">資料來源與聲明</a></span></div></footer>
+</body></html>

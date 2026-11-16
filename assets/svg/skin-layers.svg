@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="540" viewBox="0 0 640 540" role="img" aria-labelledby="title desc">
+<title id="title">皮膚六層概念示意圖</title><desc id="desc">自上而下為 SC、SG、SS、SB、PD、RD，並以不同形狀表示上皮細胞與真皮膠原纖維。非按比例繪製。</desc><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c2a3b"/><stop offset="1" stop-color="#081b2e"/></linearGradient>
+<linearGradient id="ep" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#5698b0" stop-opacity=".22"/><stop offset="1" stop-color="#3ed9ba" stop-opacity=".2"/></linearGradient>
+<pattern id="dots" width="35" height="35" patternUnits="userSpaceOnUse"><circle cx="17" cy="17" r="8" fill="#4ad0b2" opacity=".18"/><circle cx="17" cy="17" r="2.6" fill="#8cf2d0" opacity=".7"/></pattern>
+<pattern id="collagen" width="110" height="35" patternUnits="userSpaceOnUse"><path d="M-5 18 C28 -1 47 36 78 17 S129 1 137 22" fill="none" stroke="#c3a3ed" stroke-width="4" opacity=".54"/><path d="M-7 28 C22 11 51 48 91 21" fill="none" stroke="#67bbd2" stroke-width="3" opacity=".4"/></pattern>
+</defs><rect width="640" height="540" fill="url(#bg)"/><g opacity=".35" stroke="#416679" stroke-width="1"><path d="M32 68h572 M32 136h572 M32 204h572 M32 272h572 M32 340h572 M32 408h572 M32 476h572" stroke-dasharray="4 8"/></g>
+<text x="34" y="40" fill="#84deca" font-family="Arial,sans-serif" font-weight="bold" font-size="13" letter-spacing="2">DEPTH / SKIN LAYERS</text>
+<g transform="translate(35,70)">
+<path d="M0 0H395V61H0Z" fill="#456a85" opacity=".42"/><path d="M0 0H395" stroke="#8fd2e7" stroke-width="3"/><path d="M10 21h370 M22 39h350" stroke="#9be7e9" stroke-width="6" opacity=".25" stroke-linecap="round" stroke-dasharray="25 15 35 16"/>
+<path d="M0 64H395V117H0Z" fill="#497d88" opacity=".38"/><g fill="#79edc8" opacity=".7"><circle cx="36" cy="89" r="7"/><circle cx="77" cy="91" r="9"/><circle cx="121" cy="89" r="7"/><circle cx="168" cy="90" r="8"/><circle cx="215" cy="90" r="7"/><circle cx="266" cy="89" r="8"/><circle cx="310" cy="90" r="7"/><circle cx="357" cy="89" r="8"/></g>
+<path d="M0 120H395V210H0Z" fill="url(#ep)"/><path d="M0 120H395V210H0Z" fill="url(#dots)" opacity=".95"/>
+<path d="M0 213H395V267H0Z" fill="#47989a" opacity=".22"/><g fill="#7fe8e5" opacity=".57"><rect x="12" y="230" width="30" height="21" rx="8"/><rect x="59" y="230" width="30" height="21" rx="8"/><rect x="108" y="230" width="30" height="21" rx="8"/><rect x="155" y="230" width="30" height="21" rx="8"/><rect x="202" y="230" width="30" height="21" rx="8"/><rect x="249" y="230" width="30" height="21" rx="8"/><rect x="296" y="230" width="30" height="21" rx="8"/><rect x="343" y="230" width="30" height="21" rx="8"/></g>
+<path d="M0 270H395V352H0Z" fill="#5e658c" opacity=".3"/><path d="M0 270Q25 259 48 269T101 269T153 270T205 270T258 269T310 269T364 269T395 269" fill="none" stroke="#8eecce" stroke-width="3"/><rect x="0" y="280" width="395" height="72" fill="url(#collagen)"/>
+<path d="M0 355H395V430H0Z" fill="#605887" opacity=".36"/><rect x="0" y="355" width="395" height="75" fill="url(#collagen)"/>
+<g stroke="#30647b" stroke-width="1"><path d="M0 61h395 M0 118h395 M0 211h395 M0 268h395 M0 353h395"/></g></g>
+<g font-family="Arial, sans-serif"><g fill="#eefaff" font-size="22" font-weight="bold"><text x="458" y="106">SC</text><text x="458" y="169">SG</text><text x="458" y="244">SS</text><text x="458" y="307">SB</text><text x="458" y="386">PD</text><text x="458" y="463">RD</text></g><g fill="#94b9c8" font-size="12"><text x="458" y="127">角質層</text><text x="458" y="190">顆粒層</text><text x="458" y="265">棘狀層</text><text x="458" y="328">基底層</text><text x="458" y="407">乳突真皮</text><text x="458" y="484">網狀真皮</text></g></g>
+<g stroke="#8eeed1" stroke-width="2"><path d="M443 97h-10 M443 161h-10 M443 239h-10 M443 300h-10 M443 381h-10 M443 455h-10"/></g><text x="36" y="524" fill="#6f9dad" font-size="11" font-family="Arial,sans-serif">SCHEMATIC ONLY • NOT TO SCALE • NO HUMAN DATA</text>
+</svg>
